@@ -1,0 +1,5 @@
+AuthName "testtest"
+AuthUserFile "/home/calespor/.htpasswds/public_html/passwd"
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
