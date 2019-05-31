@@ -38,7 +38,7 @@ main{
 
 .center-container{
   margin: 0 auto;
-  width:50%;
+  width: 60%;
 }
 
 .content section, .content section p{
@@ -771,7 +771,7 @@ $content-selector: "~ .content > section";
 /* ============================*/
 .news-container{
   margin: 0 auto;
-  width: 55%;
+  width: 60%;
 }
 
 #news-cover-text{
@@ -1175,8 +1175,7 @@ table{
 
     .friends-detailed-row{
       display: grid;
-      grid-template-columns: 20% 78%;
-      grid-column-gap: 20px;
+      grid-template-columns: 20% 80%;
       align-items: center;
     }
 
@@ -1185,13 +1184,11 @@ table{
     }
 
     .friends-logo-4{
-      width:190px;
-      height:auto;
+      width: 75%;
     }
 
     .friends-logo-3{
-      height:140px;
-      width:auto;
+      width: 70%;
     }
 
     .friends-text p{
@@ -1216,7 +1213,7 @@ table{
 /* store tab */
 /* ====================== */
 .store-container{
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-top: 80px;
   padding-top: 5px;
@@ -1299,7 +1296,7 @@ table{
 /*===========================================*/
 
 .contact-container{
-  width:40%;
+  width: 55%;
   margin: auto;
   margin-top:80px;
   margin-bottom: 70px;
@@ -1356,8 +1353,9 @@ table{
 
 /* friends footer */
 #cal-esports-friends{
-  display: inline-block;
+  display: flex;
   background-color: #f4f4f4;
+  justify-content: center;
   padding: 30px 10px;
   font-size: 30px;
   text-align: center;
@@ -1366,14 +1364,12 @@ table{
 }
 
     .friends-logo{
-      margin:10px 40px;
-      max-width:7%;
+      margin: 10px 50px;
       height: auto;
     }
 
     .friends-logo-2{
-      margin: 5px 40px;
-      max-width: 14%;
+      margin: 5px 50px;
       height: auto;
     }
 
@@ -2175,7 +2171,6 @@ a:hover{
         font-family: "Arial", sans-serif;
         font-size: 16px;
       }
-
 
 
   /* Footer */
